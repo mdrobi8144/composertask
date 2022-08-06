@@ -1,0 +1,12 @@
+{
+    "name": "composer/vendor",
+    "autoload": {
+        "psr-4": {
+            "Composer\\Vendor\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    }
+}
